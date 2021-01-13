@@ -1,0 +1,83 @@
+@import '../../Sass/global.scss';
+
+.wrapper{
+    height: 100vh;
+    position: relative;
+    //border: 2px solid red;
+    .card{
+           background-color: #ffffff;   
+           position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(-50%, -50%);
+           max-width: 300px;
+           overflow: hidden;
+           border-radius: 10px;
+
+             .headCard{
+                 .cover{
+                    max-height: 110px;
+                    overflow: hidden;
+                 }
+                 .pictureProfile{
+                     width: 70px;
+                     height: 70px;
+                     border-radius: 50%;
+                     overflow: hidden;
+                     position: absolute;
+                     left: 50%;
+                     transform: translate(-50%, -50%);
+                     border: 5px solid #fff;
+                      img{
+                          width: 100%;
+                      }
+                 }
+             }
+             .info{
+                 text-align: center;
+                 margin-top: 50px;
+                 .name{
+                   font-family: $font; 
+                   font-size: $sizeText;
+                   font-weight: 700;  
+                   margin-bottom: 0;
+                     span{
+                           font-family: $font;
+                           font-size: $sizeText;
+                           color: $Darkgray2;  
+                           font-weight: 400; 
+                          }
+                   }
+                   .city{
+                       margin-top: 13px;
+                       color: $Darkgray2; 
+                       font-size: 14px;
+                       font-weight: 400; 
+                       margin-bottom: 25px;
+                   }
+                 
+                 .stats{
+                     border-top: .5px solid $Darkgray;
+                     display: flex;
+                     text-align: center;
+                      .followers{
+                          flex: 1;
+                          p{
+                              font-family: $font;
+                              margin-bottom: 3px;
+                              font-weight: 700; 
+                          }
+                          span{
+                            display: block;
+                            font-family: $font;  
+                            font-size: 10px;
+                            margin-bottom: 16px;
+                            color: $Darkgray2;
+                            letter-spacing: 1px;
+                          }
+                      }
+                     
+                 }
+             }       
+     }
+}

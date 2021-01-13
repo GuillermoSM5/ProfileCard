@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+//colors
 $Darkcyan : hsl(185, 75%, 39%);
 $ligthcyan: lighten($Darkcyan, 10%);
 $Verydarkdesaturated: hsl(229, 23%, 23%);
-$Darkgrayishblue: hsl(227, 10%, 46%);
-$Darkgray: hsl(0, 0%, 59%)
+$Darkgray2: hsl(227, 10%, 46%);
+$Darkgray: hsl(0, 0%, 59%);
+
+// fuentes
+$font: 'Kumbh Sans', sans-serif ;
+
+//Tamaños
+$sizeText: 18px;
